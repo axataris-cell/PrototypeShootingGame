@@ -22,5 +22,5 @@ constexpr int   ENEMY_MAX_HP     = 150;
 constexpr float ENEMY_RADIUS     = 0.45f;
 constexpr int   MAX_ENEMIES      = 14;
 
-constexpr int   M4_KILL_AMMO_REWARD = 3;      // moi lan giet 1 quai -> M4 +3 dan
-constexpr int   MAX_BULLET_HOLES    = 50;     // vuot qua -> xoa lo dan cu nhat
+constexpr int   M4_KILL_AMMO_REWARD = 1;      // moi lan giet 1 quai -> M4 +3 dan
+constexpr int   MAX_BULLET_HOLES    = 40;     // vuot qua -> xoa lo dan cu nhat

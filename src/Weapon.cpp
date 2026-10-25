@@ -7,7 +7,7 @@ static const WeaponDef DEFS[WEAPON_COUNT] = {
     {
         "M4", "model/M4.glb", "Main_j_049",
         "Draw", "Holster", "Reload", "Reload_Empty", "Fire",
-        30, false, 0,                                   // bang dan 30, khong co dan du phong luc dau
+        30, false, 60,                                   // bang dan 30, khong co dan du phong luc dau
         0.10f, true,
         150, 60, 22,
         0.27f, 3.4f, 0.10f,

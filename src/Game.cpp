@@ -377,7 +377,7 @@ void Game::drawHud() {
     if (w.state() == Weapon::State::Reloading)
         r2d_.text("RELOADING", W - 130 * s, H - 62 * s, 2.5f * s, {1, 0.85f, 0.3f, 1}, TextAlign::Center);
     else if (w.mag() == 0 && !w.hasReserve() && state_ == GameState::Playing)
-        r2d_.text("NO AMMO - PRESS 2 / KILL TO GET 3", W * 0.5f, H * 0.62f, 3.0f * s, {1, 0.4f, 0.3f, 0.95f}, TextAlign::Center);
+        r2d_.text("NO AMMO - PRESS 2 TO SWITCH TO PISTOL. 1 KILL = 1 AMMO", W * 0.5f, H * 0.62f, 3.0f * s, {1, 0.4f, 0.3f, 0.95f}, TextAlign::Center);
 
     // O sung (giua duoi)
     float sw = 150 * s, sh = 40 * s, sgap = 10 * s;
