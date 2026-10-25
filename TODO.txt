@@ -1,9 +1,12 @@
+25/10/2026
 Chia file main ra thành các thư viện có tính hệ thống (Player.cpp / hpp, Model.cpp / hpp, ...)
 Sử dụng assimp để load model súng 3D nằm trong thư mục assets/model. Tích hợp cả animation (có sẵn trong asset) khi nạp đạn, đổi súng.
 Thêm cơ chế đổi súng (sử dụng phím 1 / 2 hoặc là sử dụng nút kéo lên / xuống không tuần hoàn).
-Thêm SFX cho súng (tiếng để ở trong assets/sounds)
+Thêm SFX cho súng (tiếng để ở trong assets/sounds - gun_reload.mp3, Mark23.mp3, M4.mp3)
+
 Khiến cho súng Mark23 có recoil lớn, và thời gian hồi recoil là 1s.
 Thêm cơ chế game: Súng lục có vô hạn đạn, nhưng súng M4 thì mỗi khi giết 1 quái sẽ có thêm 3 đạn.
 Thêm shader cho vật thể, người chơi và quái.
 Thêm title screen (gồm Highscore, Settings, Play) (Trong settings có Sensitivity, Shader On / Off)
 Thêm Bullet Hole cho game (Bullet Hole tự động xóa đi nếu có quá 50 bullet hole cùng lúc)
+
